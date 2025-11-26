@@ -16,9 +16,10 @@ const toggleDrawer = () => {
 }
 const items = [
   {label: 'option.home', to: '/home'},
-  {label: 'option.about', to: '/about'},
-  {label: 'option.categories', to: '/publishing/categories'},
-  {label: 'option.tutorials', to: '/publishing/tutorials'}
+  {label: 'option.colleagues', to: '/colleagues'},
+  {label: 'option.restaurants', to: '/restaurants'},
+  {label: 'option.calculate', to: '/calculate'},
+  {label: 'option.subscriptions', to: '/subscriptions'}
 ];
 </script>
 
@@ -29,7 +30,7 @@ const items = [
     <pv-toolbar class="bg-primary">
       <template #start>
         <pv-button class="p-button-text" icon="pi pi-bars" @click="toggleDrawer"/>
-        <h3>ACME Learning Center</h3>
+        <h3>LocalFood</h3>
       </template>
       <template #center>
 

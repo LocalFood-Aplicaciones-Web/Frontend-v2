@@ -6,8 +6,8 @@ const { t } = useI18n();
 
 <template>
   <div class="align-content-start justify-content-start m-4">
-    <h1>{{  t('home.title') }}</h1>
-    <p>{{ t('home.content')}}</p>
+    <h1></h1>
+    <p></p>
   </div>
 </template>
 
