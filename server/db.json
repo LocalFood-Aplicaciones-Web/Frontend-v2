@@ -1,0 +1,138 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "KFC Megaplaza",
+      "image": "https://via.placeholder.com/300x200?text=KFC+Megaplaza",
+      "latitude": -12.0497,
+      "longitude": -77.0497,
+      "address": "Centro Comercial Megaplaza, Lima",
+      "distance": 2.5
+    },
+    {
+      "id": 2,
+      "name": "KFC Cinepolis",
+      "image": "https://via.placeholder.com/300x200?text=KFC+Cinepolis",
+      "latitude": -12.0522,
+      "longitude": -77.0522,
+      "address": "Centro Comercial Cinepolis, Lima",
+      "distance": 3.2
+    },
+    {
+      "id": 3,
+      "name": "KFC Gamarra",
+      "image": "https://via.placeholder.com/300x200?text=KFC+Gamarra",
+      "latitude": -12.0455,
+      "longitude": -77.0455,
+      "address": "Gamarra, Lima",
+      "distance": 4.1
+    },
+    {
+      "id": 4,
+      "name": "KFC Plaza Norte",
+      "image": "https://via.placeholder.com/300x200?text=KFC+Plaza+Norte",
+      "latitude": -12.0300,
+      "longitude": -77.0300,
+      "address": "Centro Comercial Plaza Norte, Lima",
+      "distance": 5.8
+    },
+    {
+      "id": 5,
+      "name": "KFC Jockey Plaza",
+      "image": "https://via.placeholder.com/300x200?text=KFC+Jockey+Plaza",
+      "latitude": -12.0650,
+      "longitude": -77.0650,
+      "address": "Centro Comercial Jockey Plaza, Lima",
+      "distance": 6.2
+    }
+  ],
+  "colleagues": [
+    {
+      "id": 1,
+      "name": "Verto Figueras",
+      "image": "https://via.placeholder.com/100x100?text=VF",
+      "email": "verto.figueras@email.com"
+    },
+    {
+      "id": 2,
+      "name": "Yolimililit",
+      "image": "https://via.placeholder.com/100x100?text=YL",
+      "email": "yolimililit@email.com"
+    },
+    {
+      "id": 3,
+      "name": "Carla Vives",
+      "image": "https://via.placeholder.com/100x100?text=CV",
+      "email": "carla.vives@email.com"
+    },
+    {
+      "id": 4,
+      "name": "Juan Pérez",
+      "image": "https://via.placeholder.com/100x100?text=JP",
+      "email": "juan.perez@email.com"
+    },
+    {
+      "id": 5,
+      "name": "María García",
+      "image": "https://via.placeholder.com/100x100?text=MG",
+      "email": "maria.garcia@email.com"
+    },
+    {
+      "id": 6,
+      "name": "Luis Rodríguez",
+      "image": "https://via.placeholder.com/100x100?text=LR",
+      "email": "luis.rodriguez@email.com"
+    },
+    {
+      "id": 7,
+      "name": "Ana Martínez",
+      "image": "https://via.placeholder.com/100x100?text=AM",
+      "email": "ana.martinez@email.com"
+    },
+    {
+      "id": 8,
+      "name": "Carlos López",
+      "image": "https://via.placeholder.com/100x100?text=CL",
+      "email": "carlos.lopez@email.com"
+    }
+  ],
+  "calculations": [
+    {
+      "id": 1,
+      "groupId": "group-1",
+      "restaurantId": 1,
+      "members": [1, 2, 3],
+      "createdAt": "2025-01-15T10:30:00Z",
+      "estimatedDistance": 2.5,
+      "status": "completed"
+    },
+    {
+      "id": 2,
+      "groupId": "group-2",
+      "restaurantId": 2,
+      "members": [1, 4, 5],
+      "createdAt": "2025-01-14T15:45:00Z",
+      "estimatedDistance": 3.2,
+      "status": "completed"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group-1",
+      "name": "Grupo Amigos",
+      "leaderId": 1,
+      "members": [1, 2, 3],
+      "createdAt": "2025-01-10T08:00:00Z",
+      "selectedRestaurant": 1
+    },
+    {
+      "id": "group-2",
+      "name": "Grupo Oficina",
+      "leaderId": 4,
+      "members": [1, 4, 5, 6],
+      "createdAt": "2025-01-12T09:00:00Z",
+      "selectedRestaurant": 2
+    }
+  ]
+}
+

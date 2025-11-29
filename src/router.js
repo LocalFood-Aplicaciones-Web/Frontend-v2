@@ -2,14 +2,16 @@ import {createRouter, createWebHistory} from "vue-router";
 import Home from "./shared/presentation/views/home.vue";
 
 import iamRoutes from "./iam/presentation/iam-routes.js";
+import calculoRoutes from "./calculate/presentation/calculo.routes.js";
 
 // TODO: Define lazy-loaded components for routes
 
 const pageNotFound = () => import('./shared/presentation/views/page-not-found.vue');
 const routes = [
-    { path: '/home',            name: 'home',       component: Home,        meta: { title: 'Home' } },
-    { path: '/iam',             name: 'iam',        children: iamRoutes },
     { path: '/',                redirect: '/home' },
+    { path: '/home',            name: 'home',       component: Home,        meta: { title: 'Home' } },
+    { path: '/iam',             children: iamRoutes },
+    { path: '/calculate',         children: calculoRoutes },
     { path: '/:pathMatch(.*)*', name: 'not-found', component: pageNotFound, meta: { title: 'Page Not Found' } }
 ];
 
@@ -24,8 +26,8 @@ const router = createRouter({
  * It sets the document title based on the target route's meta information
  * and can be used to implement authentication or other guards.
  *
- * @param {Object} to - The target Route Object being navigated to.
- * @param {Object} from - The current Route Object being navigated away from.
+ * @param {Object} to - The target Route Object being navegated to.
+ * @param {Object} from - The current Route Object being navegated away from.
  * @param {Function} next - A function that must be called to resolve the hook.
  */
 router.beforeEach((to, from, next) => {

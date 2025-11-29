@@ -57,21 +57,26 @@ const items = [
 
 <style scoped>
 .header {
-  position: absolute;
+  position: fixed;
+  top: 0;
   left: 0;
-  top:0;
-  width:100%;
+  right: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 .main-content {
   margin-top: 60px;
+  margin-bottom: 120px;
+  min-height: calc(100vh - 180px);
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
+  right: 0;
   width: 100%;
-  padding: 10px;
+  z-index: 50;
 }
 </style>

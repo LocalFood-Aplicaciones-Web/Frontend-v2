@@ -27,7 +27,28 @@
     "title": "Restaurants"
   },
   "calculate": {
-    "title": "Calculate"
+    "title": "Calculate",
+    "description": "Calculate the estimated distance to your restaurant",
+    "selectRestaurant": "Select a restaurant",
+    "calculate": "Calculate",
+    "top3": "Top 3",
+    "group": "Group",
+    "members": "People",
+    "leader": "Leader",
+    "removeMember": "Remove",
+    "noMembers": "No members in the group",
+    "addMember": "Add Person",
+    "editRestaurant": "Edit Restaurant",
+    "calculateWithoutTop3": "Calculate without Top 3",
+    "addNewMember": "Add New Member",
+    "cancel": "Cancel",
+    "selectRestaurantForGroup": "Select a Restaurant",
+    "restaurants": "Restaurants",
+    "nearbyRestaurants": "Nearby Restaurants",
+    "loading": "Loading data...",
+    "recentCalculations": "Recent Calculations",
+    "calculationCompleted": "Calculation completed!",
+    "noData": "No calculations registered"
   },
   "subscriptions": {
     "title": "Subscriptions"
