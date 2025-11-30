@@ -17,13 +17,14 @@ export class PlanAssembler {
 
     /**
      * Converts an API response to an array of Plan entities.
-     * Logs an error and returns an empty array if the response status is not 200.
+     * Logs an error and returns an empty array if the response status is not 200/201/304.
      *
      * @param {import('axios').AxiosResponse} response - The API response containing plan data.
      * @returns {Plan[]} Array of Plan entities.
      */
     static toEntitiesFromResponse(response) {
-        if (response.status !== 200) {
+        // CORRECCIÓN: Aceptamos 200 (OK), 201 (Created) y 304 (Not Modified)
+        if (![200, 201, 304].includes(response.status)) {
             console.error(`${response.status}, ${response.statusText}`);
             return [];
         }

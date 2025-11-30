@@ -32,7 +32,8 @@ export class MembershipAssembler {
      * @returns {Membership[]} Array of Membership entities.
      */
     static toEntitiesFromResponse(response) {
-        if (response.status !== 200) {
+        // CORRECCIÓN: Aceptamos 200, 201 y 304
+        if (![200, 201, 304].includes(response.status)) {
             console.error(`${response.status}, ${response.statusText}`);
             return [];
         }
@@ -47,7 +48,8 @@ export class MembershipAssembler {
      * @returns {Membership|null} The corresponding Membership entity or null.
      */
     static toEntityFromResponse(response) {
-        if (response.status !== 200) {
+        // CORRECCIÓN: Aceptamos 200, 201 y 304
+        if (![200, 201, 304].includes(response.status)) {
             console.error(`${response.status}, ${response.statusText}`);
             return null;
         }

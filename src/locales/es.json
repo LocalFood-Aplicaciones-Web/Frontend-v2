@@ -1,22 +1,22 @@
 {
   "option": {
-    "home": "Home",
+    "home": "Inicio",
     "colleagues": "Colegas",
     "restaurants": "Restaurantes",
-    "calculate": "Calculo",
+    "calculate": "Cálculo",
     "subscriptions": "Suscripciones"
   },
   "authoring-phrase": {
     "intro": "Hecho con",
-    "use": "utilizando",
-    "author": "por el Equipo de Desarrollo de {brand}"
+    "use": "usando",
+    "author": "por el Equipo de Desarrolladores de {brand}"
   },
   "home": {
-    "title": "Inicio",
-    "content": "Bienvenido a ACME Learning Center."
+    "title": "Bienvenido",
+    "content": "Bienvenido al Centro de Aprendizaje ACME."
   },
   "page-not-found": {
-    "title": "Página no encontrada",
+    "title": "Página No Encontrada",
     "content": "La ruta {unavailable-route} no está disponible.",
     "go-home": "Ir al Inicio"
   },
@@ -27,12 +27,40 @@
     "title": "Restaurantes"
   },
   "calculate": {
-    "title": "Calculo"
-  },
-  "subscriptions": {
-    "title": "Suscripciones"
+    "title": "Cálculo"
   },
   "errors": {
     "occurred": "Ocurrieron errores"
+  },
+  "subscriptions": {
+    "title": "Planes de Suscripción",
+    "managing-plan": "Gestionar Plan",
+    "change-plan": "Cambiar Plan",
+    "start": "Empezar",
+    "plan-obtained": "¡Plan Activo!",
+    "plan-obtained-message": "Disfruta de los beneficios de tu plan {plan}.",
+    "current-plan-is": "Tu plan actual es: {plan}",
+    "ideal-plan": "Recomendado",
+    "confirm-subscribe": "¿Confirmas la suscripción al plan {plan}?",
+    "confirm-change": "¿Deseas cambiar tu plan actual a {plan}?",
+    "confirm-header": "Confirmar Transacción"
+  },
+  "memberships": {
+    "title": "Mi Membresía",
+    "current-plan-details": "Detalles de tu Plan",
+    "plan-name": "Nombre del Plan",
+    "status": "Estado",
+    "renewal-date": "Próxima Renovación",
+    "included-features": "Características Incluidas",
+    "change-plan-button": "Cambiar de Plan",
+    "cancel-button": "Cancelar Suscripción",
+    "view-plans": "Ver Planes",
+    "no-active-membership": "No tienes una suscripción activa.",
+    "status-active": "Activo",
+    "status-pending": "Pendiente",
+    "status-canceled": "Cancelado",
+    "not-applicable": "N/A",
+    "confirm-cancel": "¿Estás seguro de que deseas cancelar tu suscripción? Perderás los beneficios al final del periodo.",
+    "cancel-header": "Cancelar Suscripción"
   }
 }

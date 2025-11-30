@@ -29,10 +29,41 @@
   "calculate": {
     "title": "Calculate"
   },
-  "subscriptions": {
-    "title": "Subscriptions"
-  },
+
   "errors": {
     "occurred": "Errors occurred"
+  },
+
+  "subscriptions": {
+    "title": "Subscription Plans",
+    "managing-plan": "Manage Plan",
+    "change-plan": "Change Plan",
+    "start": "Start",
+    "plan-obtained": "Plan Active!",
+    "plan-obtained-message": "Enjoy the benefits of your {plan} plan.",
+    "current-plan-is": "Your current plan is: {plan}",
+    "ideal-plan": "Recommended",
+    "confirm-subscribe": "Do you confirm subscribing to the {plan} plan?",
+    "confirm-change": "Do you want to change your current plan to {plan}?",
+    "confirm-header": "Confirm Transaction"
+  },
+  "memberships": {
+    "title": "My Membership",
+    "current-plan-details": "Your Plan Details",
+    "plan-name": "Plan Name",
+    "status": "Status",
+    "renewal-date": "Next Renewal",
+    "included-features": "Included Features",
+    "change-plan-button": "Change Plan",
+    "cancel-button": "Cancel Subscription",
+    "view-plans": "View Plans",
+    "no-active-membership": "You do not have an active subscription.",
+    "status-active": "Active",
+    "status-pending": "Pending",
+    "status-canceled": "Canceled",
+    "not-applicable": "N/A",
+    "confirm-cancel": "Are you sure you want to cancel your subscription? You will lose benefits at the end of the period.",
+    "cancel-header": "Cancel Subscription"
+
   }
 }
